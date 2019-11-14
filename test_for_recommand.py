@@ -4,10 +4,10 @@
 # Last Modified: 20 Sep 2019
 import unittest
 
-from task4_30804299 import load_documents, choice
+from recommand_30804299 import load_documents, choice
 
 
-class TestForTask4(unittest.TestCase):
+class TestForRecommand(unittest.TestCase):
     def test_choice(self):
         # Term          IDF                 Choice
         # frankenstein  2.09861228866811    84-0
